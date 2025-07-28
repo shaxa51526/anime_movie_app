@@ -15,7 +15,10 @@ class AnimeMovieApp extends StatelessWidget {
           centerTitle: true,
         ),
         body: const Center(
-          child: Text('Welcome to Anime Movie App!'),
+          child: Text('Welcome to Anime Movie App!',
+          style: TextStyle(
+            color:Colors.white,
+          ),),
         ),
       ),
     );
