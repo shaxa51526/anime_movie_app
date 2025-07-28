@@ -9,7 +9,15 @@ class AnimeMovieApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(),
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Anime Movie App'),
+          centerTitle: true,
+        ),
+        body: const Center(
+          child: Text('Welcome to Anime Movie App!'),
+        ),
+      ),
     );
   }
 }
